@@ -8,7 +8,7 @@ public:
             if(right==1)
                 diff=nums[right]-nums[right-1];   // or diff=nums[right]-nums[left];
             else{
-                // NOTE : any AP subarray pointe by left and right will also contains internal AP subarrays
+                // NOTE : any AP subarray pointed by left and right will also contain internal AP subarrays
                 if(nums[right]-nums[right-1]!=diff){
                     subLength=(right-1)-left+1;
                     if(subLength>=3){
