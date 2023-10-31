@@ -30,7 +30,7 @@ public:
     }
 };
 
-// REFER OTHER OLD SOLUTIONS, 1 of the old solutions is below :
+// REFER OTHER OLD SOLUTIONS for comparing and learning purposes, 1 of the old solutions is below :
 /*
 class Solution {
 public:
