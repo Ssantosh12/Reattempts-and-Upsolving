@@ -29,3 +29,27 @@ public:
     }
 };
 
+// REFER OTHER OLD SOLUTIONS for comparing and learning purposes, 1 of the old solutions is below :
+/*
+
+class Solution {
+public:
+    long long zeroFilledSubarray(vector<int>& nums) {
+        // Simple counting and storing method instead of two pointers
+        long long int i,zSubarrays=0,zero=0;
+        for(i=0;i<=nums.size()-1;i++){
+            if(nums[i]==0){
+                zero++;
+                if(i==nums.size()-1)
+                    zSubarrays+=(zero*(zero+1))/2;
+            }
+            else{
+                zSubarrays+=(zero*(zero+1))/2;
+                zero=0;
+            }
+        }
+        return zSubarrays;
+    }
+};
+
+*/
