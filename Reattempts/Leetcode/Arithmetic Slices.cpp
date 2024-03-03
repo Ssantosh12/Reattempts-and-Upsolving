@@ -9,6 +9,7 @@ public:
                 diff=nums[right]-nums[right-1];   // or diff=nums[right]-nums[left];
             else{
                 // NOTE : any AP subarray of length subLength pointed by left and right pointers will also contain internal AP subarrays
+                
                 if(nums[right]-nums[right-1]!=diff){
                     subLength=(right-1)-left+1;
                     if(subLength>=3){
