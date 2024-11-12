@@ -15,6 +15,7 @@ int main()
 
         // we generally use left and right pointers for calculating length of target subrray i.e right-left+1
         // here we just need the max element in one consecutive subarray of same parity (- or +), for loop is enough
+        
         for(i=0;i<=n-1;i++){
             if(i==0)
                 maxEle=arr[0];
